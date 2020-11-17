@@ -1,0 +1,70 @@
+//----------------------------------
+// 変数の設定
+//----------------------------------
+
+//----------------------------------
+// カラーコード
+//----------------------------------
+$color-primary: #013D8A;
+$color-secondary: #E9608F;
+$color-tertiary: #045BD1;
+$color-quatenery: #F1F5F8;
+$color-black: #1c1c1c;
+$color-darkgray: #333333;
+$color-dimgray: #585858;
+$color-gray: #848484;
+$color-mediumgray: #a1a1a1;
+$color-lightgray: #cccccc;
+$color-offwhite: #e0e0e0;
+$color-white: #fff;
+
+//----------------------------------
+// フォントサイズ
+//----------------------------------
+
+// 見出し
+$fontsize-heading-xxl: 7.2rem;
+$fontsize-heading-xl: 6.4rem;
+$fontsize-heading-lg: 5.6rem;
+$fontsize-heading-md: 4.8rem;
+$fontsize-heading-sm: 4rem;
+$fontsize-heading-xs: 3.2rem;
+$fontsize-heading-xxs: 2.4rem;
+
+// 文章
+$fontsize-paragraph-xxl: 2.4rem;
+$fontsize-paragraph-xl: 1.8rem;
+$fontsize-paragraph-lg: 1.6rem;
+$fontsize-paragraph-md: 1.4rem;
+$fontsize-paragraph-sm: 1.2rem;
+$fontsize-paragraph-xs: 1.1rem;
+$fontsize-paragraph-xxs: 1rem;
+
+//----------------------------------
+// フォントウェイト
+//----------------------------------
+$fontweight-thin: 100;
+$fontweight-normal: 400;
+$fontweight-bold: 600;
+$fontweight-black: 900;
+
+//----------------------------------
+// イージング
+//----------------------------------
+$easing-bounce: cubic-bezier(0, 1.65, 0.485, 1.65);
+$easing-easeout: cubic-bezier(1, 0.04, 0.07, 0.85);
+
+//----------------------------------
+// ボックスシャドウ
+//----------------------------------
+$boxshadow-light: 0 0 24px 0px rgba(map-deep-get($color-black), 0.3);
+$boxshadow-default: 0 0 24px 0px rgba(map-deep-get($color-black), 0.3);
+$boxshadow-strong: 0 0 24px 0px rgba(map-deep-get($color-black), 0.3);
+
+//----------------------------------
+// ボタンサイズ
+//----------------------------------
+$button-xs: 200px;
+$button-sm: 240px;
+$button-md: 280px;
+$button-lg: 320px;
