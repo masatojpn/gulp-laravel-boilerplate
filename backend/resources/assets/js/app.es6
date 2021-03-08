@@ -1,18 +1,21 @@
-const SUNDAI_WEB_2020 = SUNDAI_WEB_2020 || {};
+const LARAVEL_BOILERPLATE_2020 = LARAVEL_BOILERPLATE_2020 || {};
 
-(function (_) {
-    const _init = () => {
-      // 実行する関数
-      _hello();
-    };
+(function(_) {
 
-    const _hello = () => {
-      console.log('Hello, SUNDAI_WEB');
-    }
+  const _init = () => {
 
+    _hello();
 
+  };
 
-    _.init = _init();
-})(SUNDAI_WEB_2020);
+  const _hello = () => {
 
-SUNDAI_WEB_2020.init;
+    console.log('Hello, Laravel gulp boilerplate');
+
+  }
+
+  _.init = _init();
+
+})(LARAVEL_BOILERPLATE_2020);
+
+LARAVEL_BOILERPLATE_2020.init;

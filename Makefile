@@ -25,8 +25,6 @@ init:
 	docker-compose exec app cp .env.example .env
 	docker-compose exec app php artisan key:generate
 	docker-compose exec app php artisan storage:link
-	docker-compose exec web npm install
-	docker-compose exec web npm run dev
 	@make fresh
 remake:
 	@make destroy

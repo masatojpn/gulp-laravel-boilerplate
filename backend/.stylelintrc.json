@@ -1,3 +1,41 @@
 {
-  "extends": "stylelint-config-standard"
+    "plugins": [
+        "stylelint-scss"
+    ],
+    "extends": [
+        "stylelint-config-standard"
+    ],
+    "rules": {
+        "at-rule-no-unknown":[true,{
+            "ignoreAtRules":["function","if","for","each","include","mixin","content", "return"]
+        }],
+        "color-no-invalid-hex": [true],
+        "color-named": "never",
+        "color-hex-case": ["lower"],
+        "function-calc-no-unspaced-operator": true,
+        "string-no-newline": true,
+        "unit-no-unknown": true,
+        "property-no-unknown": true,
+        "keyframe-declaration-no-important": true,
+        "declaration-block-no-duplicate-properties": true,
+        "declaration-block-no-shorthand-property-overrides": true,
+        "selector-pseudo-class-no-unknown": true,
+        "selector-pseudo-element-no-unknown": true,
+        "no-extra-semicolons": true,
+        "selector-no-qualifying-type": true,
+        "length-zero-no-unit": true,
+        "declaration-block-semicolon-newline-after": "always",
+        "declaration-block-semicolon-space-after": "never",
+        "block-opening-brace-newline-before": "always",
+        "block-closing-brace-newline-after": "always",
+        "selector-max-id": 0,
+        "selector-pseudo-element-colon-notation": "double",
+        "selector-max-type": 0,
+        "selector-list-comma-newline-after": "always"
+    },
+    "ignoreFiles": [
+        "resources/assets/css/reset.scss",
+        "resources/assets/css/_test.scss",
+        "resources/assets/css/_foundation/*.scss"
+    ]
 }
