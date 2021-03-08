@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* _base.scss */
 *,
 *::before,
@@ -69,7 +68,7 @@ h4 {
 
 h5 {
   font-size: 20px;
-  font-size: 2rem;
+  font-size: 2.0rem;
 }
 
 h6 {
@@ -80,6 +79,18 @@ h6 {
 p {
   font-size: 16px;
   font-size: 1.6rem;
+}
+
+.l-header {
+  position: relative;
+}
+
+.c-test {
+  position: relative;
+}
+
+.p-test {
+  position: relative;
 }
 
 .login-title {
